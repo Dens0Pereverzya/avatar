@@ -255,83 +255,81 @@ color: #fff;
 
 }
 .footer {
+    padding-top: 35px;
+    padding-bottom: 25px;
     background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87),rgba(43, 74, 97, 0.87)), url(../imeges/futer-bgraund.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 223px;
     width: 1440px;
-    /* padding-top: 35px;
-    padding-bottom: 25px; */
 }
 .footer-container{
+    align-items: center;
     display: flex;
-      background-image: url(../imeges/main-line.png);
-      background-repeat: no-repeat;
-     background-position:590px  90px;
 }
 .footer-logo {
-    margin-top: 35px;
-    margin-bottom: 35px;
-    border-right: 2px solid var(--bg-main-color);
-    padding: 42px 80px 42px 0;
+   display: contents;
 }
 .footer-logo::after{
     content: '';
     width: 1px;
     height: 153px;
     background-color: #fff;
-    display: inline-block;
-    margin-left:300px;
+    display: block;
+    margin-left:80px;
 }
 .footer-hero {
     font-style: normal;
 }
 .footer-list {
-    background-image: url(../imeges/secenderi-line.png);
-    background-repeat: no-repeat;
-    background-position: 160px 45px;
-    margin-top: 80px;
-    margin-bottom: 37px;
     margin-left: 80px;
 }
 
 .footer-item {
     display: flex;
     justify-content: space-between;
-    width: 590px;
-
-}
-
-.qaemail-item {
-    background-image: url(../images/vector2.png);
     background-repeat: no-repeat;
     background-size: auto;
-    background-position: 127px;
-    margin-bottom: 16px;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 20px;
+text-align: justify;
+color: #fff;
+}
+.footer-item + .footer-item{
+    margin-top: 16px;
+}
+.footer-item.qaemail-item {
+    background-image: url(../imeges/main-line.png);
+    background-position:112px;
+    background-repeat: no-repeat;
+    width: 633px;
 }
 
 .cooperation-email-item {
-    background-image: url(../images/vector1.png);
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: 203px;
+    background-image: url(../imeges/secenderi-line.png);
+    background-position:185px;
+    width: 632px;
 }
 .footer-secondary{
     display: flex;
     justify-content: space-between;
     width: 590px;
-border-image: url(../imeges/secenderi-line.png);
+    background-image: url(../imeges/secenderi-line.png);
 }
 .footer-text {
     color: #FFFFFF;
 }
 
 .footer-link {
-    color:  #FFFFFF;
-    
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 20px;
+text-align: justify;
+color: #fff;
 }
 
 .small-text {
     color: #FFFFFF;
-    padding-left: 220px;
+    margin-left: 474px;
 }
